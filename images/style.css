@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+#main2 {
+    margin: 0 24px;
+}
+
+.hero-image {
+    object-fit: contain;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+h1 {
+    color: (24, 5%, 18%);
+    font-family: "Young serif",sans-serif ;
+    font-size: 2.25em;
+    font-weight: 700;
+    
+}
+
+.hero-desc {
+    line-height: 1.6;
+    font-family: 'Outfit',sans-serif;
+    font-weight: 500;
+    padding: 20px  0;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    word-spacing: 0.1em;
+}
+
+#prep-section {
+    padding: 20px;
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 10px;
+}
+
+#prep-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin: 0;
+    width: 250px;
+}
+
+#prep-section li {
+    padding-left: 10px;
+    margin-bottom: 8px;
+}
+
+
+#ingredients-sections {
+    /* padding-bottom: 30px; */
+    border-bottom: 2px solid #d6d3d1;
+    
+}
+
+#ingredients-sections ul {
+    padding: 0 22px 22px 22px;
+}
+
+#ingredients-sections li {
+    padding-left: 20px;
+    line-height: 2 ;
+}
+
+ol {
+    padding-left: 5px;
+    line-height: 1.5;
+}
+
+#Instruction-section {
+    border-bottom: 2px solid #d6d3d1;
+    
+    
+}
+
+#Instruction-section ol {
+    padding-left: 22px;
+}
+
+#Instruction-section li{
+    padding-left: 20px;
+    padding-bottom: 10px;
+    width: 300px;
+    /* list-style-position: inside; */
+}
+
+
+
+
+h2 {
+    color: hsl(14, 45%, 36%);
+    font-family: "Young serif",sans-serif ;
+    padding: 25px 0;
+    font-weight: 400;
+}
+
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: 'Outfit',sans-serif;
+    padding-bottom: 10px;
+    
+}
+
+p {
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit',sans-serif;
+}
+
+.bullets li::marker {
+    color: hsl(332, 51%, 32%);
+    
+    
+}
+
+li {
+    font-family: 'outfit', sans-serif;
+    color: hsl(30, 10%, 34%);
+    
+    
+}
+
+.unit {
+color: hsl(14, 45%, 36%); 
+font-weight: 500;
+border-bottom: 1px solid #d6d3d1;
+}
+
+#nutrition-section table {
+    font-family: 'outfit',sans-serif;
+    
+}
+
+.label {
+    color: hsl(30, 10%, 34%) ;
+     padding: 5px 0px 10px 30px;
+    border-bottom: 1px solid #d6d3d1;
+    width: 170px;
+}
+
+.table {
+  width: 100%;
+  
+   
+}
+
+.fat1 {
+    color: hsl(30, 10%, 34%) ;
+     padding: 5px 0px 20px 30px;
+     
+}
+
+.fat {
+    color: hsl(14, 45%, 36%); 
+    font-weight: 500;
+    padding: 5px 0px 20px 0;
+    
+
+}
+
+#nutrition-section p{
+    padding-bottom: 30px;
+}
+
+
+
+
+/* desktop */
+@media screen and (min-width: 550px) {
+    body {
+        width: 750px;
+        margin: 0 auto;
+        background-color: #f4a8ff;
+        margin-top: 130px;
+        margin-bottom: 130px;
+
+    }
+
+    main {
+        background-color: #fff;
+        padding: 24px 24px 0 24px;
+        margin: 0;
+        border-radius: 20px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .hero-image {
+        border-radius: 10px;
+    }
+
+    #Instruction-section li {
+        width: 100%;
+    }
+
+    #instructions {
+        height: 330px;
+    }
+
+    .unit {
+        padding-left: 180px;
+    }
+
+    .fat {
+               padding-left: 180px;
+
+    }
+
+}
+    
